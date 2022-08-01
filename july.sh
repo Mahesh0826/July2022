@@ -12,3 +12,10 @@ else
 fi
 
 
+if [ -s $file ]
+then
+        echo $file is have write permission
+else
+        echo $file is no write permission
+fi
+
